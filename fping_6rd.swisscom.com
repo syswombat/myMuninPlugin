@@ -1,16 +1,16 @@
 #!/bin/sh
 #
-# Description  : Plugin to monitor a server/network availability.
-# Author       : Thomas VIAL
-# Author URL   : http://tvi.al
-# Usage        : ln -s /path/to/fping_ /etc/munin/plugins/fping_www.google.com
-# Explaination : Will graph connection to www.google.com  
+# Description  : Plugin to monitor 6rd.swisscom.com .
+# Author       : Vincent Kocher
+# Author URL   : http://www.wombat.ch/munin
+# Usage        : 
+# Explaination : 
 # Requirements :
-# * fping
-# else Install fping     with apt-get install fping
+# * ping6
 ##############################
 # Modification by: Vincent Kocher / www.wombat.ch/munin
 # Modification date/reason: 20.01.2015 / Ping 6RD Tunnel der Swisscom (Switzerland)
+# ping -c 5 6rd.swisscom.com | sed '$!d;s|.*/\([0-9.]*\)/.*|\1|'
 ##############################
 
 target=`basename $0 | sed 's/^fping_//g'`
