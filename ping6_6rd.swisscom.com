@@ -13,7 +13,7 @@
 # ping -c 5 6rd.swisscom.com | sed '$!d;s|.*/\([0-9.]*\)/.*|\1|'
 ##############################
 
-target=`basename $0 | sed 's/^fping_//g'`
+target=`basename $0 | sed 's/^ping6_//g'`
 item=`echo $target | sed -e 's/\.//g'`
 
 #
@@ -24,7 +24,7 @@ if [ "$1" = "config" ]; then
   echo "graph_title ${target} availability"
   echo "graph_args --base 1000 -r -l 0 -u 100"
   echo "graph_vlabel Availability in %"
-  echo "graph_category network"
+  echo "graph_category WAN"
   echo "graph_info Displays Network Availability"
   # Failure
   echo "failure.label Unreachable"
