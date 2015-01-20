@@ -11,6 +11,7 @@
 # Modification by: Vincent Kocher / www.wombat.ch/munin
 # Modification date/reason: 20.01.2015 / Ping 6RD Tunnel der Swisscom (Switzerland)
 # ping -c 5 6rd.swisscom.com | sed '$!d;s|.*/\([0-9.]*\)/.*|\1|'
+# ping -c 5 www.heise.de | tail -1| awk -F '/' '{print $5}'
 ##############################
 
 target=`basename $0 | sed 's/^ping6_//g'`
