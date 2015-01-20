@@ -25,7 +25,8 @@ ping - Plugin to monitor ping times
 Configuration example
 
  [ping*]
- env.hosts mail.example.org,6:www.example.org,AAAA:search.example.org
+ env.hosts www.wombat.ch,AAAA:6rd.swisscom.com,www.heise.de,www.kozo.ch
+# env.hosts mail.example.org,6:www.example.org,AAAA:search.example.org
  env.names Mail,Web,Search
  env.fork yes
 
