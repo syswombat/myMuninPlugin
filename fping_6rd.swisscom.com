@@ -7,7 +7,10 @@
 # Explaination : Will graph connection to www.google.com  
 # Requirements :
 # * fping
-#
+##############################
+# Modification by: Vincent Kocher / www.wombat.ch/munin
+# Modification date/reason: 20.01.2015 / Ping 6RD Tunnel der Swisscom (Switzerland)
+##############################
 
 target=`basename $0 | sed 's/^fping_//g'`
 item=`echo $target | sed -e 's/\.//g'`
