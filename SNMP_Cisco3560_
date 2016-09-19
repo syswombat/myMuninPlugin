@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Description  : Plugin to get Information about a Cisco 3560 Switch
+# Author       : Vincent Kocher
+# Author URL   : http://www.wombat.ch/munin
+# Usage        :  
+# Explaination : 
+# Requirements :
+
