@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Description  : Plugin to get Information about Gude Expert Power Control 8220-1 
+# Author       : Vincent Kocher
+# Author URL   : http://www.wombat.ch/munin
+# Usage        : add the IP Address behind the filename SNMP_gude_powerControl_10.147.42.235
+# Explaination : reading out, with SNMP the (Hostname, Powerconsumption both in, Powerconsumption 2 x 6 out)
+# Requirements : 
+
+# Config (Remove #)
+# 
+
+
+
+# Plugin itself (don't touch below ;-))
