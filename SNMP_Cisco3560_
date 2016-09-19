@@ -1,12 +1,13 @@
 #!/bin/sh
 #
 # Description  : Plugin to get Information about a Cisco 3560 cg 8 Port Switch with Poe (3560CG-8PC-S)
-# Author       : Vincent Kocher
+# Author       : Vincent Kocher / with the help of .....
 # Author URL   : http://www.wombat.ch/munin
 # Usage        : add the IP Address behind the filename SNMP_Cisco3560_10.147.42.21
 # Explaination : reading out, with SNMP the (Hostname, Uptime, Bandwith of the UPlink, Bandwith of each Port, Powerconsumption?)
 # Requirements : 
 # Requirements2: you have to config on the Switch ....................
+# Version      : 19.09.2016 V0.0
 
 # Config
 
