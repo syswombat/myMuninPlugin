@@ -5,10 +5,13 @@
 # Author URL   : http://www.wombat.ch/munin
 # Usage        : add the IP Address behind the filename SNMP_gude_powerControl_10.147.42.235
 # Explaination : reading out, with SNMP the (Hostname, Powerconsumption both in, Powerconsumption 2 x 6 out)
-# Requirements : 
+# Requirements : on the Host of the file (spez. Modul, or Phyton )
+# Requirements : on the Client (define the .... ) activate it
+
+# Version      : 19.09.2016 V0.0
 
 # Config (Remove #)
-# 
+readvarable = public
 
 
 
