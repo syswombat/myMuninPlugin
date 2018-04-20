@@ -1,0 +1,5 @@
+wget      /usr/share/munin/plugins https://raw.githubusercontent.com/munin-monitoring/contrib/master/plugins/disk/useddisk
+chmod 755 /usr/share/munin/plugins/useddisk
+ln -s     /usr/share/munin/plugins/useddisk /etc/munin/plugins/useddisk_hda1
+munin-node-configure
+/etc/init.d/munin-node restart
